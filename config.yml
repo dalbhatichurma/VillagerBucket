@@ -1,0 +1,12 @@
+# VillagerBucket Configuration
+
+# Save villager data (profession, level, trades, name, etc.)
+save-villager-data: true
+
+# Messages
+messages:
+  captured: "&aVillager captured!"
+  placed: "&aVillager placed!"
+  no-permission: "&cYou don't have permission!"
+  bucket-full: "&cThis bucket already has a villager!"
+  not-villager: "&cYou must click a villager!"

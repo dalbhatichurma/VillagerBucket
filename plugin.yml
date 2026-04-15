@@ -1,0 +1,24 @@
+name: VillagerBucket
+version: 1.0
+main: com.villager.bucket.VillagerBucket
+api-version: '1.21'
+author: YourName
+description: Capture villagers in buckets
+
+commands:
+  villagerbucket:
+    description: Get a villager bucket
+    usage: /villagerbucket
+    aliases: [vb]
+    permission: villagerbucket.give
+
+permissions:
+  villagerbucket.give:
+    description: Get a villager bucket
+    default: op
+  villagerbucket.capture:
+    description: Capture villagers
+    default: true
+  villagerbucket.place:
+    description: Place villagers
+    default: true
